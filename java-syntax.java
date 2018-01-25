@@ -23,3 +23,18 @@ vectorArray.add("Robert");
  import java.util.ArrayList;
  private ArrayList<String> namesArray = new ArrayList<String>();
  namesArray.add("Robert");
+
+
+
+ ----//For loop
+
+ //loop each values
+ String names[] = {"Robert","Josh","Karen"};
+
+ 	for (String name: names){
+ 			if(name.startsWith("Ka"))
+ 	 			System.out.println( "Found a 'Ka' in this ->" +name + " name." );
+
+ 	}
+
+//or 
