@@ -74,4 +74,7 @@ vectorArray.add("Robert");
     outer.get(0).add(300); // changes only the first inner list
 
     System.out.println(outer);
+    System.out.println(outer);
+    System.out.println(outer.size());
+    System.out.println(outer.get(0).get(2));
 }
