@@ -65,6 +65,11 @@ Tags that label  /   classify the description
 @version 
  
 */
+// Tips for JavaDoc
+Netbeans
+'/** + Enter' Generate accured arguments automaticly from method are neares usuly down function.
+
+
 
  	//// Random Code
 
