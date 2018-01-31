@@ -51,10 +51,19 @@ vectorArray.add("Robert");
 //or 
 
 
+----//Structure of a Javadoc Comment // Give comment about function
+Embedded in  /**   Description of function functionality  */
 
+//** 
+First paragraph   ..  general description
+Tags that label  /   classify the description
 
-
-
+@param ... parametres of the method
+@return ... return value of the method
+@throw ... exceptions the method may throw 
+@author ... who wrote the class / interface
+ 
+*/
 
  	//// Random Code
 
