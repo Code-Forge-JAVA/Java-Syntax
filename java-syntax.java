@@ -68,7 +68,7 @@ Tags that label  /   classify the description
 // Tips for JavaDoc
 Netbeans
 '/** + Enter' Generate accured arguments from Javadoc HTML file  automaticly from method are neares usuly down function.
-
+Generate JavaDoc Go -> Projects-/MyProject/Right-Click->Generate Javadoc
 
 
  	//// Random Code
