@@ -93,3 +93,55 @@ Generate JavaDoc Go -> Projects-/MyProject/Right-Click->Generate Javadoc
     System.out.println(outer.size());
     System.out.println(outer.get(0).get(2));
 }
+
+// Java program to demonstrate varargs
+class Test1
+{
+    // A method that takes variable number of intger
+    // arguments.
+    static void fun(int ...a)
+    {
+        System.out.println("Number of arguments: " + a.length);
+ 
+        // using for each loop to display contents of a
+        for (int i: a)
+            System.out.print(i + " ");
+        System.out.println();
+        System.out.println(a[0]); // select directly as array
+    }
+ 
+    // Driver code
+    public static void main(String args[])
+    {
+        // Calling the varargs method with different number
+        // of parameters
+        fun(100);         // one parameter
+        fun(1, 2, 3, 4);  // four parameters
+        fun();            // no parameter
+    }
+}
+
+
+// try cath
+
+try(BufferedReader br = new BufferedReader(new FileReader(filename))) 
+                {    
+                    int lines = 0;
+                    dataStringHolder.clear(); // clear that old data
+                    
+                    for(String line; (line = br.readLine()) != null; ) {
+//                         System.out.println(line+"\n");
+                                                 
+                         dataStringHolder.add(line); // store new data
+                     }
+                     
+                     lines++;
+                }        
+             catch (Exception e)
+                     {
+                          System.err.println("Class: StaticFileManager, method: readInFileUpdater() ERROR_ReadLineMethod path:"+fileSystem.getAbsolutePath());
+                     }
+
+or 
+
+try {}cath (Exception e) {}                     
