@@ -1,4 +1,5 @@
 
+
 jSpinner
 int value = (Integer) jSpinnerPinID.getValue();
 
@@ -10,6 +11,6 @@ jButton
 	jTextFieldNames.setEditable(true);
 
 jList
-    jListUserNames.setListData(namesArray);
+    jListUserNames.setListData(namesArray); // use to add remove purpose
     jListUserNames.getSelectedIndex()
     jListUserNames.getSelectedValue()

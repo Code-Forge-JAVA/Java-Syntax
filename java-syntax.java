@@ -24,7 +24,8 @@
            String s = "fish";
            String s2= "tank";
            System.out.println(s.concat(s2)); // return 'fishtank'
-
+    To String 
+           String.valueOf(42) ;// convert into string 
 ..........................................................
 -----Vetor
 import java.util.Vector;
