@@ -2,6 +2,7 @@
 
 jSpinner
 int value = (Integer) jSpinnerPinID.getValue(); // get  value from spinner
+int spinnerPassword = (int)jSpinnerUserPassword.getValue() 
 jSpinnerPinID.setValue(54); // set value to spinner position 
 
 
