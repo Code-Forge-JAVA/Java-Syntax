@@ -26,6 +26,9 @@
            System.out.println(s.concat(s2)); // return 'fishtank'
     To String 
            String.valueOf(42) ;// convert into string 
+    To In 
+           String myString = "1234";
+           int foo = Integer.parseInt(myString);       
 ..........................................................
 -----Vetor
 import java.util.Vector;
@@ -167,12 +170,3 @@ try {}cath (Exception e) {}
 
 // Fecth pins, user ID,user Password, Password Next Update Position  
 // Generate plain lenght with nothing and when upload data from file
-
-private int indexUser = 0;
-    private int indexPinStart = 1;
-    private int indexPinEnd = 72;
-    private int indexUserID = 73;
-    private int indexPasswordPushCount = 74;
-    private int indexPasswordStart = 75;
-    private int indexPasswordEnd = 85; // Generate plain lenght with nothing and when upload data from file
-    private int indexALL = indexPasswordEnd;// Generate/Navigate Throw all user data

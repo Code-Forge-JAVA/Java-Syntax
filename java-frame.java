@@ -2,7 +2,7 @@
 
 jSpinner
 int value = (Integer) jSpinnerPinID.getValue(); // get  value from spinner
-jSpinnerPinID.setValue(54); // set value to spinner
+jSpinnerPinID.setValue(54); // set value to spinner position 
 
 
 jButton
