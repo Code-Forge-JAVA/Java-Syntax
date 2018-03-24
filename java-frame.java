@@ -1,7 +1,8 @@
 
 
 jSpinner
-int value = (Integer) jSpinnerPinID.getValue();
+int value = (Integer) jSpinnerPinID.getValue(); // get  value from spinner
+jSpinnerPinID.setValue(54); // set value to spinner
 
 
 jButton
@@ -14,3 +15,13 @@ jList
     jListUserNames.setListData(namesArray); // use to add remove purpose
     jListUserNames.getSelectedIndex()
     jListUserNames.getSelectedValue()
+    jListPinscollection.setSelectedIndex(value) // select value in won box
+
+
+JOption
+    //JOption Message Box
+     import file.data.multilines.manager.StaticFileManager; // how to import library
+
+         int userCondition =  JOptionPane.showConfirmDialog(null,"Do you love winter","Winter quiz",JOptionPane.YES_NO_OPTION);
+       	 if (userCondition == 0) 
+       	 	//do something

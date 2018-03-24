@@ -51,6 +51,11 @@ vectorArray.add("Robert");
 
 //or 
 
+......................................................
+-----Array
+pinArray.indexOf(index); //Serch index . if find return 1 else -1
+...................................................
+
 
 ----//Structure of a Javadoc Comment // Give comment about function
 Embedded in  /**   Description of function functionality  */
@@ -146,3 +151,28 @@ try(BufferedReader br = new BufferedReader(new FileReader(filename)))
 or 
 
 try {}cath (Exception e) {}                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Fecth pins, user ID,user Password, Password Next Update Position  
+// Generate plain lenght with nothing and when upload data from file
+
+private int indexUser = 0;
+    private int indexPinStart = 1;
+    private int indexPinEnd = 72;
+    private int indexUserID = 73;
+    private int indexPasswordPushCount = 74;
+    private int indexPasswordStart = 75;
+    private int indexPasswordEnd = 85; // Generate plain lenght with nothing and when upload data from file
+    private int indexALL = indexPasswordEnd;// Generate/Navigate Throw all user data
