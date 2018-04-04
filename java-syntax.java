@@ -29,6 +29,10 @@
     To In 
            String myString = "1234";
            int foo = Integer.parseInt(myString);       
+
+    //
+    Check integer in string 0-9
+    subtextStr.matches("-?\\d+"); // return boolean       
 ..........................................................
 -----Vetor
 import java.util.Vector;
@@ -170,3 +174,79 @@ try {}cath (Exception e) {}
 
 // Fecth pins, user ID,user Password, Password Next Update Position  
 // Generate plain lenght with nothing and when upload data from file
+
+
+
+
+Class 
+
+  Class as multidatatypes array 
+  1.
+         public class IOKeyMap {
+/**
+ * Hold unicode shifting properties
+ */   
+ 
+
+
+public class IOKeyMap {
+/**
+ * Hold unicode shifting properties
+ */   
+ 
+     private class __keymap {
+        public char key;
+        public int value;
+        public boolean shift; // if unicode
+        
+         
+        
+        public __keymap(char key,int value,boolean shift) {
+         
+             this.key = key;
+             this.value = value;
+             this.shift = shift;
+         };
+    }   
+     public __keymap[] keymap;    
+        
+      public  IOKeyMap () {
+            keymap  = new __keymap[12];
+            
+            // Set new values using constructor
+            keymap[0] = new __keymap('!',1,true);
+            keymap[1] = new __keymap('!',1,true);
+            keymap[2] = new __keymap('@',-1,true);
+            keymap[3] = new __keymap('#',-1,true);
+            keymap[4] = new __keymap('%',-1,true);
+            keymap[5] = new __keymap('^',-1,true);
+            keymap[6] = new __keymap('^',-1,true);
+            keymap[7] = new __keymap('&',-1,true);
+            keymap[8] = new __keymap('*',-1,true);
+            keymap[9] = new __keymap('(',-1,true);
+            keymap[10] = new __keymap(')',-1,true);
+            keymap[11] = new __keymap('_',-1,true);
+            keymap[12] = new __keymap('+',-1,true);
+            
+            
+        }
+        
+        // return total ammount of array lists
+        int getLenght() {return keymap.length;}
+        
+        
+        /**
+         * See All map of parameters
+         */
+        void seeMap () {
+             System.err.println("array len: "+keymap.length);
+            
+            for (__keymap object : keymap) {
+                
+                System.out.println(object.key+", "+object.value+", "+object.shift );
+            }
+        }
+        
+    }
+
+Assole1234567890
